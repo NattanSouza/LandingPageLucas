@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Lucas Freitas | Advogado Imobiliário e Sucessório</title>
+  <meta name="description" content="Advocacia imobiliária e sucessória. Inventários ágeis, consultoria imobiliária, planejamento sucessório, regularização de imóveis e atendimento digital. Agende uma consulta." />
+  <meta name="theme-color" content="#0b2545" />
+  <meta property="og:title" content="Dr. Lucas Freitas | Advogado Imobiliário e Sucessório" />
+  <meta property="og:description" content="Inventários ágeis, consultoria imobiliária, planejamento sucessório e regularização de imóveis. Atendimento digital." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1528747045269-390fe33c19d4?q=80&w=1200&auto=format&fit=crop" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%23d4af37' d='M128 20c-59.6 0-108 48.4-108 108s48.4 108 108 108 108-48.4 108-108S187.6 20 128 20Zm0 200a92 92 0 1 1 0-184 92 92 0 0 1 0 184Z'/%3E%3Cpath fill='%23d4af37' d='M176 160h-20l-8-64h20l8 64Zm-96 0h20l8-64H92l-12 64Z'/%3E%3C/svg%3E" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Dr. Lucas Freitas - Advocacia Imobiliária e Sucessória",
+    "image": "https://images.unsplash.com/photo-1528747045269-390fe33c19d4?q=80&w=1200&auto=format&fit=crop",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua José Hipólito, 45, Centro",
+      "addressLocality": "Volta Redonda",
+      "addressRegion": "RJ",
+      "postalCode": "27345-000",
+      "addressCountry": "BR"
+    },
+    "url": "https://exemplo.com",
+    "telephone": "+55 24 99305-5132",
+    "priceRange": "$$",
+    "areaServed": "Brasil",
+    "founder": "Dr. Lucas Freitas",
+    "openingHours": "Mo-Fr 09:00-18:00",
+    "serviceType": "Direito Imobiliário e Sucessório"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <span aria-label="Registro OAB">OAB 000000</span>
+      <span>•</span>
+      <a href="tel:+5524993055132" class="link">+55 (24) 99305-5132</a>
+      <span>•</span>
+      <a href="mailto:contato@exemplo.com" class="link">contato@exemplo.com</a>
+    </div>
+  </header>
+
+  <nav class="nav" aria-label="Primária">
+    <div class="container nav__inner">
+      <a class="logo" href="#hero" aria-label="Ir para o topo">
+        <svg width="28" height="28" viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="M128 20c-59.6 0-108 48.4-108 108s48.4 108 108 108 108-48.4 108-108S187.6 20 128 20Zm0 200a92 92 0 1 1 0-184 92 92 0 0 1 0 184Z"/><path fill="currentColor" d="M176 160h-20l-8-64h20l8 64Zm-96 0h20l8-64H92l-12 64Z"/></svg>
+        <span>Dr. Lucas Almeida de Freitas</span>
+      </a>
+
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu">☰</button>
+
+      <ul id="menu" class="nav__menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#areas">Áreas</a></li>
+        <li><a href="#resultados">Casos</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#faq">Perguntas</a></li>
+        <li><a href="#contato">Contato</a></li>
+
+        <!-- Botão Movimento no menu -->
+        <li class="nav__motion">
+          <button id="motion-toggle" class="btn btn--ghost btn--motion" type="button" aria-pressed="false" title="Ativar movimento pelos sensores do celular">
+            <span class="motion-dot" aria-hidden="true"></span>
+            <span class="motion-label">Movimento</span>
+          </button>
+        </li>
+
+        <!-- CTA WhatsApp -->
+        <li class="nav__cta">
+          <a class="btn btn--primary" href="https://wa.me/5524993055132?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">
+            <i class="bi bi-whatsapp" aria-hidden="true"></i>
+            Agendar consulta
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <h1 class="hero__title">Segurança jurídica para seu <span class="accent">patrimônio imobiliário</span> e sua família.</h1>
+          <p class="hero__subtitle">Sou o Dr. Lucas Almeida, especialista em Direito Imobiliário e Sucessório. Realizar o inventário não precisa ser complicado: agilidade, clareza e atenção personalizada.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="https://wa.me/5524993055132?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20imobili%C3%A1ria." target="_blank" rel="noopener">
+              <i class="bi bi-whatsapp" aria-hidden="true"></i>
+              Falar no WhatsApp
+            </a>
+            <a class="btn btn--ghost" href="#areas">Conhecer áreas</a>
+          </div>
+          <div class="hero__stats" aria-label="Indicadores resumidos">
+            <div class="stat"><span class="stat__num" data-target="3">0</span><span class="stat__label">anos em Direito Imobiliário</span></div>
+            <div class="stat"><span class="stat__num" data-target="347">0</span><span class="stat__label">contratos analisados</span></div>
+            <div class="stat"><span class="stat__num" data-target="97">0</span><span class="stat__label">% satisfação</span></div>
+          </div>
+          <p class="disclaimer">*Resultados passados não garantem resultados futuros.</p>
+        </div>
+        <div class="hero__media" role="img" aria-label="Imagem de prédios residenciais e comerciais">
+          <img src="./images/Foto1.jpg" alt="Foto do Advogado" loading="eager" />
+        </div>
+      </div>
+    </section>
+
+    <!-- POR QUE ME ESCOLHER -->
+    <section id="diferenciais" class="section">
+      <div class="container">
+        <h2 class="section__title">Por que me escolher</h2>
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">📌</div>
+            <h3>Consultoria Jurídica Eficiente</h3>
+            <p>Orientação clara e estratégica em Direito Imobiliário e Sucessório para decisões seguras.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">🤝</div>
+            <h3>Atendimento Humanizado</h3>
+            <p>Atuação ética, com empatia, respeitando as particularidades do seu caso.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">💻</div>
+            <h3>Soluções Digitais Modernas</h3>
+            <p>Uso de tecnologia para agilizar rotinas e reduzir burocracia.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">🛡️</div>
+            <h3>Suporte Completo</h3>
+            <p>Acompanhamento integral com transparência e segurança jurídica.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÁREAS -->
+    <section id="areas" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Áreas de atuação</h2>
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <h3>Inventários Ágeis</h3>
+            <p>Gestão eficiente do inventário — judicial ou extrajudicial.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Consultoria Imobiliária</h3>
+            <p>Análise de riscos, contratos e due diligence para negócios seguros.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Planejamento Sucessório</h3>
+            <p>Organização da transmissão do patrimônio com economia e prevenção de conflitos.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Regularização de Imóveis</h3>
+            <p>Retificação, averbações, usucapião e matrícula.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Atendimento Digital</h3>
+            <p>Agilidade com assinaturas eletrônicas e comunicação centralizada.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTADOS / CASOS -->
+    <section id="resultados" class="section">
+      <div class="container">
+        <h2 class="section__title">Resultados e casos</h2>
+        <div class="grid grid--3">
+          <article class="case reveal">
+            <h3>Inventário extrajudicial concluído</h3>
+            <p>Condução ágil com documentação completa e orientação aos herdeiros.</p>
+          </article>
+          <article class="case reveal">
+            <h3>Revisão de contrato imobiliário</h3>
+            <p>Cláusulas ajustadas para mitigar riscos e assegurar a entrega.</p>
+          </article>
+          <article class="case reveal">
+            <h3>Regularização de matrícula</h3>
+            <p>Correções de registro para viabilizar financiamento e transferência.</p>
+          </article>
+        </div>
+        <p class="disclaimer">*Os relatos não garantem desfechos semelhantes.</p>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section id="depoimentos" class="section testimonials section--alt">
+      <div class="container">
+        <h2 class="section__title">Depoimentos</h2>
+
+        <div class="t-wrap">
+          <div class="t-track" aria-roledescription="carousel">
+            <figure class="t-card">
+              <div class="t-head">
+                <img class="t-avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=160&auto=format&fit=crop" alt="" />
+                <figcaption>
+                  <strong>Maria S.</strong>
+                  <span>Compra e venda</span>
+                </figcaption>
+              </div>
+              <blockquote>“Atendimento excelente, sempre disponível e transparente. Recomendo!”</blockquote>
+              <div class="t-stars" aria-label="5 de 5">★★★★★</div>
+            </figure>
+
+            <figure class="t-card">
+              <div class="t-head">
+                <img class="t-avatar" src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=160&auto=format&fit=crop" alt="" />
+                <figcaption>
+                  <strong>Juliano R.</strong>
+                  <span>Revisional de aluguel</span>
+                </figcaption>
+              </div>
+              <blockquote>“Estratégia muito bem definida. Fiquei seguro em todas as etapas.”</blockquote>
+              <div class="t-stars" aria-label="4 de 5">★★★★☆</div>
+            </figure>
+
+            <figure class="t-card">
+              <div class="t-head">
+                <img class="t-avatar" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=160&auto=format&fit=crop" alt="" />
+                <figcaption>
+                  <strong>Carlos F.</strong>
+                  <span>Regularização de matrícula</span>
+                </figcaption>
+              </div>
+              <blockquote>“Objetivo e assertivo. Resolveu meu problema com rapidez.”</blockquote>
+              <div class="t-stars" aria-label="5 de 5">★★★★★</div>
+            </figure>
+          </div>
+
+          <div class="t-dots" role="tablist" aria-label="Navegação de depoimentos"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Perguntas frequentes</h2>
+        <div class="grid" style="gap:1rem">
+          <article class="card">
+            <h3>O que é um inventário?</h3>
+            <p>Após o falecimento, os bens formam o <em>espólio</em>, administrado pelos herdeiros até a transferência oficial. O inventário abre a sucessão e organiza a partilha conforme a lei.</p>
+          </article>
+          <article class="card">
+            <h3>Quanto custa fazer um inventário?</h3>
+            <p>Varia conforme patrimônio, honorários, custas e ITCMD. Em inventários extrajudiciais, os custos tendem a ser menores. Busco sempre conduzir com eficiência e economia dentro dos limites legais.</p>
+          </article>
+          <article class="card">
+            <h3>Não tenho dinheiro para pagar o inventário. O que posso fazer?</h3>
+            <p>É possível usar valores deixados ou alienar bens do espólio (móveis ou imóveis) para custear o procedimento, com concordância dos herdeiros e, se necessário, autorização judicial.</p>
+          </article>
+          <article class="card">
+            <h3>Qual o prazo para abrir um inventário?</h3>
+            <p>Regra geral: iniciar em até 60 dias do falecimento. Depois disso, pode haver multa/juros no ITCMD, conforme o estado.</p>
+          </article>
+          <article class="card">
+            <h3>Por que contar com um advogado especializado?</h3>
+            <ul class="list">
+              <li><strong>Agilidade:</strong> antecipa exigências e reduz atrasos.</li>
+              <li><strong>Prevenção de conflitos:</strong> media o diálogo entre herdeiros.</li>
+              <li><strong>Otimização de custos:</strong> estratégias para minimizar despesas legais e tributárias.</li>
+            </ul>
+            <p>Com orientação técnica, o inventário tende a ser mais rápido, organizado e seguro.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+      <div class="container about">
+        <div class="about__media">
+          <img src="./images/Foto2.jpg" alt="Foto do advogado" loading="lazy" />
+        </div>
+        <div class="about__copy">
+          <h2 class="section__title">Sobre o profissional</h2>
+          <p>Graduado em Direito pelo Centro Universitário de Barra Mansa (UBM) em 2022 e especialista em Inventários, atuo com foco em Direito Imobiliário e Sucessório. Atendimento ágil e humanizado, com soluções práticas e personalizadas.</p>
+          <ul class="list">
+            <li>Graduação em Direito — Centro Universitário de Barra Mansa (UBM)</li>
+            <li>Especialista em Inventários</li>
+            <li>Membro da Comissão de Direito Imobiliário e de Direito Registral e Notarial</li>
+          </ul>
+          <div class="badges">
+            <span class="badge">Português</span>
+            <span class="badge">Inglês</span>
+            <span class="badge">Atende remoto</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Contato</h2>
+        <div class="contact">
+          <form id="form-contato" class="form" novalidate>
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input id="nome" name="nome" type="text" required placeholder="Seu nome completo" autocomplete="name" />
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" required placeholder="seu@email.com" autocomplete="email" />
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="field">
+              <label for="tel">Telefone (WhatsApp)</label>
+              <input id="tel" name="tel" type="tel" inputmode="tel" pattern="^\+?\d[\d\s().-]{8,}$" placeholder="+55 24 99999-9999" />
+              <small class="hint">Formato livre. Ex.: +55 24 99999-9999</small>
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="field">
+              <label for="assunto">Assunto</label>
+              <select id="assunto" name="assunto" required>
+                <option value="">Selecione…</option>
+                <option>Inventário</option>
+                <option>Consultoria Imobiliária</option>
+                <option>Planejamento Sucessório</option>
+                <option>Regularização de Imóveis</option>
+                <option>Outro</option>
+              </select>
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="field">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Descreva brevemente sua necessidade (ex.: inventário extrajudicial, contrato de compra e venda, usucapião)"></textarea>
+              <small class="error" aria-live="polite"></small>
+            </div>
+
+            <div class="form__actions">
+              <button class="btn btn--primary" type="submit">Enviar</button>
+              <button class="btn btn--ghost" type="reset">Limpar</button>
+            </div>
+            <p class="form__feedback" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="contact__aside">
+            <div class="contact__card">
+              <h3>Endereço</h3>
+              <p>Rua José Hipólito, 45, Centro - Barra Mansa/RJ, CEP 27345-000</p>
+              <a class="link" href="https://maps.app.goo.gl/CeNxngUKF36fEhjo9" target="_blank" rel="noopener">Ver no mapa</a>
+            </div>
+            <div class="contact__card">
+              <h3>Atendimento</h3>
+              <p>Seg a Sex, 9h às 18h<br>Online e presencial</p>
+              <a class="btn btn--outline" href="tel:+5524993055132">Ligar agora</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <strong>Dr. Lucas Almeida de Freitas</strong>
+        <span>OAB 000000</span>
+      </div>
+      <nav class="footer__nav" aria-label="Rodapé">
+        <a href="#sobre">Sobre</a>
+        <a href="#areas">Áreas</a>
+        <a href="#faq">Perguntas</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <p class="footer__copy">© <span id="ano"></span> — Todos os direitos reservados.</p>
+    </div>
+
+    <button id="toTop" class="to-top" aria-label="Voltar ao topo">
+      <i class="bi bi-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <a class="whatsapp-fab" href="https://wa.me/5524993055132?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+      <i class="bi bi-whatsapp" aria-hidden="true"></i>
+    </a>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
